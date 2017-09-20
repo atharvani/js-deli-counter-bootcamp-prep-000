@@ -1,5 +1,7 @@
 function takeANumber(katzDeli, name)
-{  
+{
+  var retString 
     katzDeli.push(name)
-    return "welcome " + name + "! You are number " + katzDeli.length + " in line."
+    retString = "welcome " + name + "! You are number " + katzDeli.length + " in line."
+    return retString;
 }
