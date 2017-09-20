@@ -12,9 +12,9 @@ function nowServing(katzDeliLine)
   if(katzDeliLine.length === 0)
   {
     retString = "There is nobody waiting to be served!"
-    
+
   }
-  else 
+  else
   {
     var number = katzDeliLine.length
       retString = "Currently serving " + katzDeliLine[0];
