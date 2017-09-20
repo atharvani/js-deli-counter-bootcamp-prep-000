@@ -35,7 +35,7 @@ function currentLine(katzDeliLine)
     for(var i=0; i< katzDeliLine.length; i++)
     {
       retString = retString + (i+1) + ". " + katzDeliLine[i]
-      if(i < katzDeliLine.length-1) 
+      if(i < katzDeliLine.length-1)
       {
         retString = retString + ", "
       }
