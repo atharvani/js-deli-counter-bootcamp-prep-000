@@ -22,3 +22,24 @@ function nowServing(katzDeliLine)
     }
     return retString
 }
+
+function currentLine(katzDeliLine)
+{
+  var retString
+  if(katzDeliLine.length === 0)
+  {
+    retString = "The line is currently empty."
+  }
+  else {
+    retString = "The line is currently: "
+    for(var i=0; i< katzDeliLine.length; i++)
+    {
+      retString = retString + (i+1) + ". " + katzDeliLine[i]
+      if(i < katzDeliLine.length-1) 
+      {
+        retString = retString + ", "
+      }
+    }
+  }
+  return retString
+}
